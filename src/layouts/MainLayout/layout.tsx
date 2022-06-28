@@ -44,9 +44,8 @@ function Layout({
           site_name: t('common:site_name'),
         }}
       />
-      <div>
-        <h1>Havas CX Istanbul Next.js Starter Kit</h1>
-        <div className="ui-container">{children}</div>
+      <div className="my-7 mx-5 flex items-center justify-center gap-7">
+        {children}
       </div>
     </main>
   );
