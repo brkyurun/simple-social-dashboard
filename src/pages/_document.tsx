@@ -20,7 +20,7 @@ class MyDocument extends Document {
     return (
       <Html lang={locale}>
         <Head />
-        <body>
+        <body className="m-0 p-0">
           <Main />
           <NextScript />
         </body>

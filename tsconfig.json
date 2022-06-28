@@ -34,7 +34,7 @@
     "paths": {
       "@/*": ["*"],
       "@app/*": ["src/*"],
-      "@app/components": ["src/compoenents/*"],
+      "@app/components": ["src/components/*"],
       "@app/layouts": ["src/layouts/*"],
       "@app/services": ["src/services/*"],
       "@app/shared": ["src/shared/*"]

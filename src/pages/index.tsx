@@ -26,21 +26,23 @@ function Index(): JSX.Element {
       title={title}
       description={description}
     >
-      <Card
-        type="twitter"
-        firstStatData="2412"
-        secondStatData="2314"
-      />
-      <Card
-        type="instagram"
-        firstStatData="2412"
-        secondStatData="2314"
-      />
-      <Card
-        type="youtube"
-        firstStatData="2412"
-        secondStatData="2314"
-      />
+      <div className="flex h-screen w-screen items-center justify-center space-x-5 px-5">
+        <Card
+          type="twitter"
+          firstStatData="2412"
+          secondStatData="2314"
+        />
+        <Card
+          type="instagram"
+          firstStatData="2412"
+          secondStatData="2314"
+        />
+        <Card
+          type="youtube"
+          firstStatData="2412"
+          secondStatData="2314"
+        />
+      </div>
     </Layout>
   );
 }

@@ -44,9 +44,7 @@ function Layout({
           site_name: t('common:site_name'),
         }}
       />
-      <div className="my-7 mx-5 flex items-center justify-center gap-7">
-        {children}
-      </div>
+      {children}
     </main>
   );
 }
