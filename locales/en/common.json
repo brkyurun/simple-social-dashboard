@@ -1,7 +1,7 @@
 {
   "title": "Next.js Starter Kit",
   "description": "Description",
-  "siteName": "Havas CX Istanbul Next.js Starter Kit",
+  "site_name": "Havas CX Istanbul Next.js Starter Kit",
   "locale": "en",
   "buttons": {
     "all": "All"
